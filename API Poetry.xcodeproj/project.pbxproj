@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A9DBAD5B2D6F6D1000114B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DBAD422D6F6D0E00114B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DBAD492D6F6D0E00114B18;
+			remoteInfo = "API Poetry";
+		};
+		A9DBAD652D6F6D1100114B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DBAD422D6F6D0E00114B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DBAD492D6F6D0E00114B18;
+			remoteInfo = "API Poetry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9DBAD4A2D6F6D0E00114B18 /* API Poetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Poetry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DBAD5A2D6F6D1000114B18 /* API PoetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API PoetryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DBAD642D6F6D1100114B18 /* API PoetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API PoetryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9DBAD4C2D6F6D0E00114B18 /* API Poetry */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "API Poetry";
+			sourceTree = "<group>";
+		};
+		A9DBAD5D2D6F6D1100114B18 /* API PoetryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "API PoetryTests";
+			sourceTree = "<group>";
+		};
+		A9DBAD672D6F6D1100114B18 /* API PoetryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "API PoetryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DBAD472D6F6D0E00114B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD572D6F6D1000114B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD612D6F6D1100114B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DBAD412D6F6D0E00114B18 = {
+			isa = PBXGroup;
+			children = (
+				A9DBAD4C2D6F6D0E00114B18 /* API Poetry */,
+				A9DBAD5D2D6F6D1100114B18 /* API PoetryTests */,
+				A9DBAD672D6F6D1100114B18 /* API PoetryUITests */,
+				A9DBAD4B2D6F6D0E00114B18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DBAD4B2D6F6D0E00114B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DBAD4A2D6F6D0E00114B18 /* API Poetry.app */,
+				A9DBAD5A2D6F6D1000114B18 /* API PoetryTests.xctest */,
+				A9DBAD642D6F6D1100114B18 /* API PoetryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DBAD492D6F6D0E00114B18 /* API Poetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DBAD6E2D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API Poetry" */;
+			buildPhases = (
+				A9DBAD462D6F6D0E00114B18 /* Sources */,
+				A9DBAD472D6F6D0E00114B18 /* Frameworks */,
+				A9DBAD482D6F6D0E00114B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9DBAD4C2D6F6D0E00114B18 /* API Poetry */,
+			);
+			name = "API Poetry";
+			packageProductDependencies = (
+			);
+			productName = "API Poetry";
+			productReference = A9DBAD4A2D6F6D0E00114B18 /* API Poetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9DBAD592D6F6D1000114B18 /* API PoetryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DBAD712D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API PoetryTests" */;
+			buildPhases = (
+				A9DBAD562D6F6D1000114B18 /* Sources */,
+				A9DBAD572D6F6D1000114B18 /* Frameworks */,
+				A9DBAD582D6F6D1000114B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DBAD5C2D6F6D1000114B18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9DBAD5D2D6F6D1100114B18 /* API PoetryTests */,
+			);
+			name = "API PoetryTests";
+			packageProductDependencies = (
+			);
+			productName = "API PoetryTests";
+			productReference = A9DBAD5A2D6F6D1000114B18 /* API PoetryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9DBAD632D6F6D1100114B18 /* API PoetryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DBAD742D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API PoetryUITests" */;
+			buildPhases = (
+				A9DBAD602D6F6D1100114B18 /* Sources */,
+				A9DBAD612D6F6D1100114B18 /* Frameworks */,
+				A9DBAD622D6F6D1100114B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DBAD662D6F6D1100114B18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9DBAD672D6F6D1100114B18 /* API PoetryUITests */,
+			);
+			name = "API PoetryUITests";
+			packageProductDependencies = (
+			);
+			productName = "API PoetryUITests";
+			productReference = A9DBAD642D6F6D1100114B18 /* API PoetryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DBAD422D6F6D0E00114B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A9DBAD492D6F6D0E00114B18 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A9DBAD592D6F6D1000114B18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A9DBAD492D6F6D0E00114B18;
+					};
+					A9DBAD632D6F6D1100114B18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A9DBAD492D6F6D0E00114B18;
+					};
+				};
+			};
+			buildConfigurationList = A9DBAD452D6F6D0E00114B18 /* Build configuration list for PBXProject "API Poetry" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DBAD412D6F6D0E00114B18;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9DBAD4B2D6F6D0E00114B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DBAD492D6F6D0E00114B18 /* API Poetry */,
+				A9DBAD592D6F6D1000114B18 /* API PoetryTests */,
+				A9DBAD632D6F6D1100114B18 /* API PoetryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DBAD482D6F6D0E00114B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD582D6F6D1000114B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD622D6F6D1100114B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DBAD462D6F6D0E00114B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD562D6F6D1000114B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBAD602D6F6D1100114B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9DBAD5C2D6F6D1000114B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DBAD492D6F6D0E00114B18 /* API Poetry */;
+			targetProxy = A9DBAD5B2D6F6D1000114B18 /* PBXContainerItemProxy */;
+		};
+		A9DBAD662D6F6D1100114B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DBAD492D6F6D0E00114B18 /* API Poetry */;
+			targetProxy = A9DBAD652D6F6D1100114B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9DBAD6C2D6F6D1100114B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DBAD6D2D6F6D1100114B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DBAD6F2D6F6D1100114B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"API Poetry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-Poetry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DBAD702D6F6D1100114B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"API Poetry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-Poetry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9DBAD722D6F6D1100114B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-PoetryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Poetry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/API Poetry";
+			};
+			name = Debug;
+		};
+		A9DBAD732D6F6D1100114B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-PoetryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Poetry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/API Poetry";
+			};
+			name = Release;
+		};
+		A9DBAD752D6F6D1100114B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-PoetryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Poetry";
+			};
+			name = Debug;
+		};
+		A9DBAD762D6F6D1100114B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rohan.API-PoetryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Poetry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DBAD452D6F6D0E00114B18 /* Build configuration list for PBXProject "API Poetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DBAD6C2D6F6D1100114B18 /* Debug */,
+				A9DBAD6D2D6F6D1100114B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DBAD6E2D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API Poetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DBAD6F2D6F6D1100114B18 /* Debug */,
+				A9DBAD702D6F6D1100114B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DBAD712D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API PoetryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DBAD722D6F6D1100114B18 /* Debug */,
+				A9DBAD732D6F6D1100114B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DBAD742D6F6D1100114B18 /* Build configuration list for PBXNativeTarget "API PoetryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DBAD752D6F6D1100114B18 /* Debug */,
+				A9DBAD762D6F6D1100114B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DBAD422D6F6D0E00114B18 /* Project object */;
+}
